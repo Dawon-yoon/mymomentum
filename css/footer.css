@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.windows-toolbar {
+  height: 1.8rem;
+  width: 100%;
+  background-color: #925ad9;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+}
+.toolbar_left {
+  display: flex;
+}
+.toolbar_left button {
+  border: none;
+  background-color: #925ad9;
+  color: white;
+  margin-right: 8px;
+}
+.toolbar_left button:hover {
+  transform: scale(1.04);
+}
+.search-bar input {
+  height: 1.5rem;
+  border: 1px solid #d334f3;
+  width: 180px;
+  padding-left: 4px;
+  margin-left: 10px;
+}
+
+.search-bar input::placeholder {
+  padding-left: 8px;
+}
+.search-bar__icon {
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  right: 23px;
+  top: 1px;
+}
+.toolbar-texts {
+  display: flex;
+  justify-content: space-between;
+}

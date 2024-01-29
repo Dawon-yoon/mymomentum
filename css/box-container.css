@@ -1,0 +1,25 @@
+.box-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brouser-box {
+  background-color: #cd9efa;
+  opacity: 0.9;
+  width: 60%;
+  height: 70%;
+  border: 1.2px solid #aa44ff;
+}
+.brouser-box__navbar {
+  padding: 5px 5px;
+  background-color: #925ad9;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  border: 1px solid #d334f3;
+}
+.brouser-box__navbar button {
+  border: 1.2px solid#D334F3;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my_momentum</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="apps">
+      <div class="apps-column">
+        <button class="apps-bnt">
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube fa-3x"></i
+          ></a>
+        </button>
+        <a class="apps-text" href="https://www.youtube.com/">YouTube</a>
+      </div>
+      <div class="apps-column">
+        <button class="apps-bnt">
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram fa-3x"></i
+          ></a>
+        </button>
+        <a class="apps-text" href="https://www.instagram.com/">Instagram</a>
+      </div>
+      <div class="apps-column">
+        <button class="apps-bnt">
+          <a href="https://github.com/Dawon-yoon"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+        </button>
+        <a class="apps-text" href="https://github.com/Dawon-yoon">GitHub</a>
+      </div>
+      <div class="apps-column">
+        <button class="apps-bnt">
+          <a href="https://www.google.com/?hl=ja"></a
+          ><i class="fa-brands fa-google fa-3x"></i>
+        </button>
+        <a class="apps-text" href="https://www.google.com/?hl=ja">Google</a>
+      </div>
+    </div>
+    <main class="box-container">
+      <div class="brouser-box">
+        <nav class="brouser-box__navbar">
+          <div class="nav-bar__text">my_momentum</div>
+          <div class="nav-bar__bnts">
+            <button>_</button>
+            <button>□</button>
+            <button>x</button>
+          </div>
+        </nav>
+        <div class="content-box">
+            <form class="hidden" id="login-form">
+            <input required maxlength="15" id="login-input"  type="text" placeholder="what is your name">
+            <button>Log in</button></form>
+            <h1 id="greeting" class="hidden"></h1>
+            <form class="hidden" id="todo-form">
+            <input  type="text" placeholder="what do you do today">
+            <button>click</button></form>
+        </div>
+        <div>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="windows-toolbar">
+        <div class="toolbar_left">
+          <button><i class="fa-brands fa-windows fa-xl"></i></button>
+          <div class="search-bar">
+            <input type="text" placeholder="search" /><span
+              class="search-bar__icon"
+              ><i class="fa-solid fa-magnifying-glass fa-sm"></i
+            ></span>
+          </div>
+        </div>
+        <div class="toolbar-texts">
+          <div>wheather?</div>
+          <div id="clock">00:00</div>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e106b2b7eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
