@@ -22,6 +22,7 @@ function paintGreetings(userName) {
 
 function removeHiddenClassName() {
   todoForm.classList.remove(HIDDEN_CLASSNAME);
+  /*todoList.classList.remove(HIDDEN_CLASSNAME);*/
 }
 
 const savedUserName = localStorage.getItem(USERNAME_KEY);
