@@ -3,6 +3,7 @@
 @import "footer.css";
 @import "content-box.css";
 @import "brouser-box.css";
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Sixtyfour&display=swap");
 
 html {
   height: 100%;
@@ -19,6 +20,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: "Sixtyfour", "Gasoek One", sans-serif;
 }
 
 input:focus {
@@ -43,4 +45,8 @@ a {
   bottom: 0;
   z-index: -1;
   opacity: 80%;
+}
+
+button:hover {
+  transform: scale(1.02);
 }

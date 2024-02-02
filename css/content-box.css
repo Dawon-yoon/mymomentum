@@ -4,9 +4,9 @@
   justify-content: space-around;
 }
 #login-input {
+  margin-left: 70px;
   margin-top: 200px;
 }
-
 .content-box__left {
   width: 40%;
   height: 100%;
@@ -47,4 +47,11 @@ ul li {
 }
 #todo-list__box::-webkit-scrollbar {
   display: none;
+}
+
+#quote span {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin: 15px 0;
 }
