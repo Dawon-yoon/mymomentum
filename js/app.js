@@ -2,6 +2,8 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 const todoForm = document.querySelector("#todo-form");
+const todoListBox = document.querySelector("#todo-list__box");
+const contentBox = document.querySelector(".content-box__right");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
@@ -22,7 +24,8 @@ function paintGreetings(userName) {
 
 function removeHiddenClassName() {
   todoForm.classList.remove(HIDDEN_CLASSNAME);
-  /*todoList.classList.remove(HIDDEN_CLASSNAME);*/
+  todoListBox.classList.remove(HIDDEN_CLASSNAME);
+  contentBox.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUserName = localStorage.getItem(USERNAME_KEY);

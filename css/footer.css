@@ -1,7 +1,8 @@
 footer {
-  display: flex;
-  align-items: flex-end;
   box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 .windows-toolbar {
   height: 1.8rem;
@@ -45,4 +46,16 @@ footer {
 .toolbar-texts {
   display: flex;
   justify-content: space-between;
+  margin-right: 15px;
+  align-items: center;
+  font-size: 13px;
+}
+.toolbar-texts span {
+  margin-right: 3px;
+}
+
+#weather-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 3px;
 }

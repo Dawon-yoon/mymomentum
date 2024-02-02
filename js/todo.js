@@ -22,6 +22,7 @@ function paintTodo(newTodo) {
   span.innerText = newTodo.text;
   const button = document.createElement("button");
   button.innerText = "✔";
+
   li.appendChild(button);
   li.appendChild(span);
   todoList.appendChild(li);
