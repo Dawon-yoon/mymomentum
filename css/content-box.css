@@ -40,7 +40,7 @@ ul li {
 #todo-list__box {
   width: 80%;
   margin-top: 15px;
-  height: 280px;
+  height: 270px;
   background-color: #bb88fd;
   padding: 8px 8px;
   overflow: auto;
@@ -52,6 +52,21 @@ ul li {
 #quote span {
   text-align: center;
   display: block;
-  font-size: 18px;
-  margin: 15px 0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+iframe {
+  margin-bottom: 5px;
+}
+
+#logout {
+  display: flex;
+  font-size: 9px;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+#logout a {
+  color: black;
 }
